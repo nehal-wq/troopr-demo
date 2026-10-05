@@ -10,4 +10,5 @@ function login(email, password) {
 
     return "Login successful";
 }
+
 console.log(login("test@gmail.com", "12345678"));
