@@ -1,9 +1,12 @@
-function login(username, password) {
-    if (username && password) {
-        return "Login successful";
+function login(email, password) {
+
+    if (!email.includes("@")) {
+        return "Invalid email";
     }
 
-    return "Invalid username or password";
-}
+    if (password.length < 8) {
+        return "Password must contain at least 8 characters";
+    }
 
-console.log(login("testuser", "12345678"));
+    return "Login successful";
+}
