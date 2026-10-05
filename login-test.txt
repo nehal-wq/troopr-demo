@@ -1,0 +1,1 @@
+Login authentication fix - Troopr Jira/GitHub integration test.
